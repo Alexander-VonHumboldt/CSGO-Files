@@ -1,11 +1,11 @@
 @ECHO OFF
 setlocal
 
-:: Define base paths
-set "repo-base=C:\Users\srapp\OneDrive\Desktop\CSGO-Files"
+:: Path to steam Counter Strike base directory 
 set "steam-base=X:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive"
 
 :: Define file paths
+set "repo-base=%~dp0"
 set "repo-ver-path=%repo-base%\autoexec.cfg"
 set "repo-ver-path-practice=%repo-base%\practice.cfg"
 set "repo-ver-path-cs2=%repo-base%\autoexec_cs2.cfg"
