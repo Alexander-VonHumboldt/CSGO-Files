@@ -1,0 +1,14 @@
+# retoot the server
+curl -X POST https://admin.puffserver.rocks/srcds/console/casual/v1/restart \
+  -H "Authorization: Bearer 94cdaa39-f9ba-42c5-a07c-d3f5a3e5bb3f"
+
+# force an update check
+curl -X POST https://admin.puffserver.rocks/srcds/console/casual/v1/update \
+  -H "Authorization: Bearer 94cdaa39-f9ba-42c5-a07c-d3f5a3e5bb3f"
+
+# live server console
+# use https://github.com/websockets/wscat or similar
+wscat -P v -c "wss://admin.puffserver.rocks/srcds/console/casual/v1/ws" \
+  -H "Authorization: Bearer 94cdaa39-f9ba-42c5-a07c-d3f5a3e5bb3f"
+
+	
