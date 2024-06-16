@@ -1,7 +1,7 @@
 @ECHO OFF
 setlocal
 
-:: Path to steam Counter Strike base directory 
+:: Path to steam Counter Strike base game directory 
 set "steam-base=X:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive"
 
 :: Define file paths
