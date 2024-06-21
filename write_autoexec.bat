@@ -13,7 +13,7 @@ set "steam-folder-path=%steam-base%\csgo\cfg\autoexec.cfg"
 set "steam-folder-path-practice=%steam-base%\csgo\cfg\practice.cfg"
 set "steam-folder-path-cs2=%steam-base%\game\csgo\cfg\autoexec_cs2.cfg"
 set "repo-ver-path-trashtalker=%repo-base%\trashtalker.cfg"
-set "steam-folder-path-trashtalker=%steam-base%\game\csgo\cfg\trashtalker.cfg""
+set "steam-folder-path-trashtalker=%steam-base%\game\csgo\cfg\trashtalker.cfg"
 
 :main
 call :overwrite "CS2 config" "%repo-ver-path-cs2%" "%steam-folder-path-cs2%"
